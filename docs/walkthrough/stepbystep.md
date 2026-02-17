@@ -8,7 +8,10 @@ An AMI is a template or blueprint used to create EC2 Instance. The image defines
 
 <img width="817" height="710" alt="EC2 Config" src="https://github.com/user-attachments/assets/2a71452e-296c-4794-99c6-8d6af1345d4e" />
 
+For instance type, I selected a `T2 Micro`. AMIs define what pre built software & operating systems your server runs. 
+Instance type defines how fast & powerful the server runs & covers the hardware componenets, CPU power, memory size & storage space. T2 Micro is affordable for light use.
 
+<img width="725" height="852" alt="EC2Launch2" src="https://github.com/user-attachments/assets/8f89000f-a4dd-4cd9-9464-de658c222115" />
 
 
 
