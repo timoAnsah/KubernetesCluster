@@ -22,3 +22,9 @@ Security group allows SSH Traffic from anywhere (0.0.0.0/0).
 This is not best security practise but I will leave this temporarily to make connecting via SSH easier.
 
 Now that my Instance is running, I will connect to it using EC2 Instance Connect.
+
+EC2 Instance connect is a shortcut way to get direct SSH access to my EC2 Instance.
+so instead of having to manage a key pair manually, Instance Connect connects me to my instance within the management console
+We begin by selecting the `eks-instance` & selecting connect
+
+<img width="1757" height="155" alt="image" src="https://github.com/user-attachments/assets/5c4a488c-f23c-4e49-b2d3-524d913d35f9" />
