@@ -18,5 +18,6 @@ Instance type defines how fast & powerful the server runs & covers the hardware 
 
 
 Key pair: A key pair is like a lock & key for EC2 Instance. Usually a key pair is not essential to SSH connect to an instance
-Keep default values in Netowkr settings and allow SSH Traffic. 
-Security group allows SSH Traffic from anywhere (0.0.0.0/0). This is not best security practise but I will leave this temporarily to make connecting via SSH easier.
+I Kept the default values in Network settings and allow SSH Traffic. 
+Security group allows SSH Traffic from anywhere (0.0.0.0/0). 
+This is not best security practise but I will leave this temporarily to make connecting via SSH easier.
