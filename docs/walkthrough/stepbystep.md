@@ -3,6 +3,9 @@ Deploy Kubernetes Cluster using EKS. EKS is AWSs service for deploying Kubernete
 ## Step 1 - Launch & Connect to an EC2 instance
 In this step I will launch & connect to an EC2 Instance. This is because it will be my central development workspace for sending commands & creating Kubernetes Clusters.
 
+<img width="1763" height="207" alt="EC2launch" src="https://github.com/user-attachments/assets/c12909cd-e509-4e3c-bc3a-914bfac7a104" />
+
+
 My EC2 Instance is called `eks-instance` & for the Amazon Mchine Image I selected `Amazon Linux 2023 AMI`
 An AMI is a template or blueprint used to create EC2 Instance. The image defines EC2 instance OS with the application needed to launch the instance.
 
@@ -15,5 +18,5 @@ Instance type defines how fast & powerful the server runs & covers the hardware 
 
 
 
-Key pair: A key pair is like a lock & key for your EC2 Instance. Usually a key pair is not essential to SSH connect to an instance
+Key pair: A key pair is like a lock & key for EC2 Instance. Usually a key pair is not essential to SSH connect to an instance
 Keep default values in Netowkr settings and allow SSH Traffic. 
