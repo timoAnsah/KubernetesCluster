@@ -27,4 +27,9 @@ EC2 Instance connect is a shortcut way to get direct SSH access to my EC2 Instan
 so instead of having to manage a key pair manually, Instance Connect connects me to my instance within the management console
 We begin by selecting the `eks-instance` & selecting connect
 
-<img width="1757" height="155" alt="image" src="https://github.com/user-attachments/assets/5c4a488c-f23c-4e49-b2d3-524d913d35f9" />
+<img width="1757" height="155" alt="EC2 instance connect" src="https://github.com/user-attachments/assets/58f49fda-cefb-46ff-bdd5-bbfd2b668516" />
+
+
+<img width="1107" height="485" alt="instanceConnect" src="https://github.com/user-attachments/assets/325760fc-a6ec-4c6b-bcc0-1e336911782d" />
+
+This is the `Instance Connect` page, AWS gives you different options to connect with your EC2 Instance.
