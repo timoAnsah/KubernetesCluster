@@ -44,13 +44,14 @@ This can be improved by tailoring the inbound rules of my security group to EC2 
 
 
 ## Step 2 - Launching EKS Cluster
+In this next step I will launch an EKS Cluster with the command line too `EKSCTL` to send commands to the EC2 Instance & create clusters 
 
 `eksctl` is a command line tool used to create & manage EKS clusters.
 It simplifies the process of setting up & configuring EKS clusters.
 
 Kubernetes is a tool used to manage running containers.
-Once applications are containerised Kubernetes helps them run smoothly by handling tasks like load balancing, scaling & restarting the containers when they fail.
+Once applications are containerised, Kubernetes helps them run smoothly by handling tasks like load balancing, scaling & restarting the containers when they fail.
 It does not build containers, Docker handles that. 
 
-from experience, setting up Kubernetes from scratch can be time consuming & complex because you'll need to configure Kubernetes networking, scaling & security settings manually. 
+setting up Kubernetes from scratch can be time consuming & complex because you'll need to configure Kubernetes networking, scaling & security settings manually. 
 EKS handles these set up tasks & aids integration with other AWS services.
