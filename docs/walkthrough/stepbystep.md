@@ -41,3 +41,16 @@ This is the `Instance Connect` page, AWS gives you different options to connect 
 EC2 Instance Connect uses a whole range of IP Addresses & they vary depending on your region.
 I kept the default security group for my develoment instance because i was not certain which IP Addreesses my Instances should be allowing for SSH Traffic.
 This can be improved by tailoring the inbound rules of my security group to EC2 Instance connect.
+
+
+## Step 2 - Launching EKS Cluster
+
+eksctl is a command line tool used to create & manage EKS clusters.
+It simplifies the process of setting up & configuring EKS clusters.
+
+Kubernetes is a tool used to manage running containers.
+Once applications are containerised Kubernetes helps them run smoothly by handling tasks like load balancing, scaling & restarting the containers when they fail.
+It does not build containers, Docker handles that. 
+
+from experience, setting up Kubernetes from scratch can be time consuming & complex because you'll need to configure Kubernetes networking, scaling & security settings manually. 
+EKS handles these set up tasks & aids integration with other AWS services.
