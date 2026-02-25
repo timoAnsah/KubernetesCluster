@@ -35,3 +35,6 @@ We begin by selecting the `eks-instance` & selecting connect
 <img width="1107" height="485" alt="instanceConnect" src="https://github.com/user-attachments/assets/325760fc-a6ec-4c6b-bcc0-1e336911782d" />
 
 This is the `Instance Connect` page, AWS gives you different options to connect with your EC2 Instance.
+
+<img width="3805" height="1550" alt="eks-instance" src="https://github.com/user-attachments/assets/635de451-aaff-419f-a8f1-692203afe0be" />
+
