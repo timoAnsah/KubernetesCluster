@@ -38,3 +38,6 @@ This is the `Instance Connect` page, AWS gives you different options to connect 
 
 <img width="3805" height="1550" alt="eks-instance" src="https://github.com/user-attachments/assets/635de451-aaff-419f-a8f1-692203afe0be" />
 
+EC2 Instance Connect uses a whole range of IP Addresses & they vary depending on your region.
+I kept the default security group for my develoment instance because i was not certain which IP Addreesses my Instances should be allowing for SSH Traffic.
+This can be improved by tailoring the inbound rules of my security group to EC2 Instance connect.
