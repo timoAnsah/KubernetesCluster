@@ -56,3 +56,17 @@ It does not build containers, Docker handles that.
 setting up Kubernetes from scratch can be time consuming & complex because you'll need to configure Kubernetes networking, scaling & security settings manually. 
 EKS handles these set up tasks & aids integration with other AWS services.
 
+This is the command for creating a Kubernetes Cluster. 
+
+eksctl create cluster \
+--name nextwork-eks-cluster \
+--nodegroup-name nextwork-nodegroup \
+--node-type t3.micro \
+--nodes 3 \
+--nodes-min 1 \
+--nodes-max 3 \
+--version 1.33
+
+<img width="1030" height="1575" alt="cluster-command" src="https://github.com/user-attachments/assets/531e37b6-1559-457b-b356-0699a01a58c5" />
+
+Noticed that I had not installed `EKSCTL` so an error occured.
