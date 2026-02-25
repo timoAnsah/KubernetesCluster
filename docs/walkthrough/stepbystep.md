@@ -59,8 +59,8 @@ EKS handles these set up tasks & aids integration with other AWS services.
 This is the command for creating a Kubernetes Cluster. 
 
 `eksctl create cluster \
---name nextwork-eks-cluster \
---nodegroup-name nextwork-nodegroup \
+--name Lagrange-eks-cluster \
+--nodegroup-name Lagrange-nodegroup \
 --node-type t3.micro \
 --nodes 3 \
 --nodes-min 1 \
