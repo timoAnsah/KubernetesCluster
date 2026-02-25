@@ -45,7 +45,7 @@ This can be improved by tailoring the inbound rules of my security group to EC2 
 
 ## Step 2 - Launching EKS Cluster
 
-eksctl is a command line tool used to create & manage EKS clusters.
+`eksctl` is a command line tool used to create & manage EKS clusters.
 It simplifies the process of setting up & configuring EKS clusters.
 
 Kubernetes is a tool used to manage running containers.
