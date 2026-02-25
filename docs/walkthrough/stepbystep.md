@@ -75,14 +75,13 @@ in the next step, I downloaded & install `eksctl` to my EC2 Instance using this 
 The first command downlaods the latest release from Github.
 The second command moves it to a directory within EC2 Instance that lets me run `eksctl` from anywhere in the terminal.
 
-I then checked which version is installed by running `eksctl version`.
-
 `curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv -v /tmp/eksctl /usr/local/bin`
 
-Now that `eksctl` is installed, I spin up the cluster again 
+After completion, I then checked which version is installed by running `eksctl version`.
 
 
 
-and to confirm 
 <img width="2167" height="1570" alt="eksctl-install version" src="https://github.com/user-attachments/assets/5aa24027-91a2-4e71-85d5-d4eb71769c57" />
+
+Now that `eksctl` is installed, I spin up the cluster again. Here, I also have to give my EC2 Instance permission to run commands.
