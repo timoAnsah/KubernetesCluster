@@ -67,7 +67,7 @@ This is the command for creating a Kubernetes Cluster.
 --nodes-max 3 \
 --version 1.33`
 
-<img width="1030" height="1575" alt="cluster-command" src="https://github.com/user-attachments/assets/531e37b6-1559-457b-b356-0699a01a58c5" />
+<img width="1025" height="1072" alt="cluster-command" src="https://github.com/user-attachments/assets/117d6fff-4585-4d69-9b06-4aa3e2e97498" />
 
 Noticed that I had not installed `EKSCTL` so an error occured.
 
