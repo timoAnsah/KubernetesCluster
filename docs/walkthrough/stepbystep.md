@@ -81,7 +81,6 @@ sudo mv -v /tmp/eksctl /usr/local/bin`
 After completion, I then checked which version is installed by running `eksctl version`.
 
 
-
-<img width="2167" height="1570" alt="eksctl-install version" src="https://github.com/user-attachments/assets/5aa24027-91a2-4e71-85d5-d4eb71769c57" />
+<img width="2171" height="1360" alt="eksctl-install version" src="https://github.com/user-attachments/assets/f5357762-f768-4320-9fcd-aaaa4b77ffae" />
 
 Now that `eksctl` is installed, I spin up the cluster again. Here, I also have to give my EC2 Instance permission to run commands.
